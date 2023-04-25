@@ -1,6 +1,24 @@
 package praktikum3;
 
 public class TestStatic1 {
+    public static void main(String[] args) {
+        TestStatic testStatic = new TestStatic();
+
+        testStatic.satu();
+        TestStatic.dua();
+
+        System.out.println("Variable a : " + testStatic.a);
+        System.out.println("Variable b : " + testStatic.b);
+        System.out.println("Variable c : " + testStatic.c);
+        System.out.println("Variable d : " + testStatic.d);
+
+        // Tidak bisa dipanggil karena Private
+//        System.out.println("Variable e : " + testStatic.e);
+
+    }
+}
+
+class TestStatic {
     int a = 10;
     static int b = 2;
     protected int c = 30;
