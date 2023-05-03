@@ -1,7 +1,6 @@
 package praktikum4;
 
 import java.util.Scanner;
-
 import static java.lang.Math.sqrt;
 
 public class ABCFormulaDemo {
@@ -36,7 +35,6 @@ public class ABCFormulaDemo {
 }
 
 class ABCFormula {
-
     private double a, b, c;
 
     ABCFormula(Double a, Double b, Double c) {

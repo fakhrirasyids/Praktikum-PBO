@@ -17,7 +17,6 @@ public class Mobil2BMWDemo {
 class Mobil2BMW extends Mobil2 {
     Mobil2BMW() {
     }
-
     void nontonTv() {
         System.out.println("TV Dihidupkan");
         System.out.println("TV Mencari Channel");

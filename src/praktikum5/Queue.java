@@ -41,6 +41,7 @@ public class Queue {
                     System.out.println();
                     for (int num : queueList) {
                         System.out.println("Data ke-" + ptr + " : " + num);
+                        ptr++;
                     }
                 }
             } else if (menuChoice == 4) {

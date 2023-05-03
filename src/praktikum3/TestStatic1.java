@@ -14,7 +14,6 @@ public class TestStatic1 {
 
         // Tidak bisa dipanggil karena Private
 //        System.out.println("Variable e : " + testStatic.e);
-
     }
 }
 
@@ -24,7 +23,6 @@ class TestStatic {
     protected int c = 30;
     public int d = 40;
     private int e = 50;
-
     void satu() {
         dua();
         System.out.println("satu.............");
@@ -34,11 +32,9 @@ class TestStatic {
         System.out.println("satu.............d : " + d);
         System.out.println("satu.............e : " + e);
     }
-
     static void dua() {
         System.out.println("dua.........." + b);
     }
-
     public static void main(String[] args) {
         dua();
     }

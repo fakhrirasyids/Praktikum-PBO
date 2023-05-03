@@ -84,7 +84,6 @@ class Nilai {
     }
 
     String getPredikat(char huruf) {
-
         return switch (huruf) {
             case 'A' -> "Apik";
             case 'B' -> "Baik";
@@ -95,8 +94,6 @@ class Nilai {
     }
 
     void cetakNilai() {
-
-
         System.out.println("\nNim          : " + this.nim);
         System.out.println("Nama         : " + this.nama);
         System.out.println("Nilai Tugas  : " + this.nilaiTugas + " 20%    : " + this.pNilaiTugas);

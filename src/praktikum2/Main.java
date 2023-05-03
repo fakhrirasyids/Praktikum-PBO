@@ -7,7 +7,7 @@ public class Main {
                 "Fakhri Rasyid Saputro",
                 90.0,
                 80.0,
-                87.5
+                87.0
         );
 
         mahasiswa.hitungNilai();
@@ -34,9 +34,9 @@ class Mahasiswa {
     }
 
     void hitungNilai() {
-        pNilaiUts = nilaiUts * 0.8;
-        pNilaiTugas = nilaiTugas * 0.65;
-        pNilaiUas = nilaiUas * 0.55;
+        pNilaiTugas = nilaiTugas * 0.2;
+        pNilaiUts = nilaiUts * 0.35;
+        pNilaiUas = nilaiUas * 0.45;
     }
 
     void cetakNilai() {
@@ -45,5 +45,6 @@ class Mahasiswa {
         System.out.println("Nilai Tugas  : " + this.nilaiTugas + " 20%    : " + this.pNilaiTugas);
         System.out.println("Nilai Uts    : " + this.nilaiUts + " 35%    : " + this.pNilaiUts);
         System.out.println("Nilai Uas    : " + this.nilaiUas + " 45%    : " + this.pNilaiUas);
+        System.out.println("Nilai Akhir  : " + (this.pNilaiTugas + this.pNilaiUas + this.pNilaiUts));
     }
 }

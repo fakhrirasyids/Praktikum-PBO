@@ -1,6 +1,6 @@
 package praktikum2;
 
-public class Latihan1 {
+public class Mobil2Demo {
     public static void main(String[] args) {
         Mobil2 avanza = new Mobil2();
         Mobil2 xenia = new Mobil2();

@@ -2,7 +2,6 @@ package praktikum7;
 
 public class Karyawan {
     public double tunjanganAnak;
-
     public Karyawan(double tunjanganAnak) {
         this.tunjanganAnak = tunjanganAnak;
     }
